@@ -1,0 +1,49 @@
+
+/*마진을 자동으로 맞춰줘서 가운데 정렬이 된다.  */
+#frm{
+   display: block;
+   margin: 0px auto;
+   width: 50%;
+}
+
+label, input {
+   diplay: block;
+   float: left;
+}
+label {
+   width: 30%;
+   text-align: right;
+}
+input{
+   width: 50%;
+   text-align: left;
+   margin-left: 10px;
+}
+input[type="text"] {
+   background-color: lightcyan;
+}
+[type="password"]{
+   background-color: oldlace;
+}
+div{
+   margin-bottom: 30px; /* ID 와 PW칸 간격을 만듬 */
+}
+#bfr{
+   /* clear: left; */
+   text-align: center;
+   margin-top: 30px
+}
+div{
+   padding-top: 10px;
+}
+button{
+   width: 200px;
+   height: 30px;
+   font-size: 16pt;
+}
+button[type="submit"]{
+   background-color: orange;
+}
+button[type="button"]{
+   background-color: green;
+}
