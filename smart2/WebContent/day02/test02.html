@@ -20,15 +20,48 @@
 	<div class="content">
 		<h1 class="title">Checked 상태 선택자</h1>
 		<div class="fr">
-			<div id="#gfr">
-				<label>성별</label>
-				<div>
-					<input type="radio" name="gen" value="M"> <span>남자</span>
-				</div>
-				<div>
-					<input type="radio" name="gen" value="F"> <span>여자</span>
+			<div>
+				<label class="ft16 bold">성별 : </label>
+				<div id="gfr">
+					<div>
+						<input type="radio" name="gen" value="M"> <span class="ft16 bold">남자</span>
+					</div>
+					<div>
+						<input type="radio" name="gen" value="F"> <span class="ft16 bold">여자</span>
+					</div>
 				</div>
 			</div>
+			<div class="gfr">
+				<hr>
+			</div>
+			<div>
+				<label class="ft16 bold">
+					수강과목 : 
+				</label>
+				<div id="gdr">
+					<div>
+						<input type="checkbox" name="sub" value="java"> <span class="ft16 bold">Java</span><br>
+						<input type="checkbox" name="sub" value="oracle"> <span class="ft16 bold">Oracle</span><br>
+						<input type="checkbox" name="sub" value="html"> <span class="ft16 bold">HTML</span><br>
+						<input type="checkbox" name="sub" value="css"> <span class="ft16 bold">CSS</span><br>
+						<input type="checkbox" name="sub" value="javascript"> <span class="ft16 bold">JavaScript</span>
+					</div>
+					<div>	
+						<input type="checkbox" name="sub" value="jqueary"> <span class="ft16 bold">JQuery</span><br>
+						<input type="checkbox" name="sub" value="jsp"> <span class="ft16 bold">JSP</span><br>
+						<input type="checkbox" name="sub" value="spring"> <span class="ft16 bold">Spring</span><br>
+						<input type="checkbox" name="sub" value="python"> <span class="ft16 bold">Python</span><br>
+						<input type="checkbox" name="sub" value="r"> <span class="ft16 bold">R</span>
+					</div>
+				</div>
+			</div>
+			<div class="gfr">
+				<hr>
+			</div>
+			<div class="bot">
+					<input type="reset">
+					<input type="submit">
+			</div>	
 		</div>
 	</div>
 </body>

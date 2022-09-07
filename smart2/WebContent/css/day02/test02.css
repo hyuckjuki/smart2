@@ -5,6 +5,7 @@
 .title {
 	background-color: #e91e63;
 	padding: 12px;
+	text-align: center;
 }
 .fr {
 	margin-top: 20px;
@@ -17,4 +18,54 @@ label {
 #gfr {
 	float: left;
 	width: 420px;
+}
+
+#gfr > div {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+[type="radio"]:checked {
+	width: 50px;
+	height: 50px;
+}
+.ft12 {
+	font-size: 12pt;
+}
+.ft14 {
+	font-size: 14pt;
+}
+.ft16 {
+	font-size: 16pt;
+}
+.bold {
+	font-weight: bold;
+}
+.gfr{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	clear: left;
+	display: block;
+}
+.chkbox {
+	float: right;
+	text-align: center;
+}
+[type="checkbox"]:checked {
+	width: 30px;
+	height: 30px;
+}
+#gdr {
+	position: relative;
+	left: 70px;
+	float: left;
+	width: 420px;
+	margin-bottom: 20px;
+}
+#gdr > div {
+	width: 50%;
+	float: left;
+}
+.bot {
+	text-align: right;
 }
