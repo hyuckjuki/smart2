@@ -1,0 +1,49 @@
+.content {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+.fr {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	/*  border: 1px solid indigo;*/
+	overflow: hidden;
+}
+
+#img {
+	width: 128em;
+    height: 123em;
+    position: relative;
+    right: 1258px;
+    bottom: 1210px;
+}
+
+.fr1 {
+	display: inline-block;
+	width: 446px;
+	height: 246px;
+	background: brown;
+	border: 5px dotted green;
+	overflow: hidden;
+}
+#img1 {
+	width: 100%;
+	height: auto;
+	position: relative;
+	bottom: 140px;
+}
+.fr2{
+	display: inline-block;
+	width: 400px;
+	height: 200px;
+	margin: 20px;
+	background: brown;
+	overflow: hidden;
+}
+#shadow {
+	box-shadow: 10px 10px 10px blue;
+}
+.round7 {
+	border-radius: 7px;
+}
